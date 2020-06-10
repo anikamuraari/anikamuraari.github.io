@@ -4,63 +4,115 @@
   <head>
     <title id=title>Anika's World</title> 
     <style>
+        .horizontal_bar {
+          float: left;
+          }
+
+        .horizontal_bar {
+            display: block;
+            background-color:aquamarine;
+            color:black;
+            padding:12px;
+            font-size: 25px;
+            font-style:initial;
+            
+        }
         body {
             background-color:aqua;
             
         }
+        header ul{
+            color:black;
+            font-style: oblique;
+            font-weight:bold;
+            font-size:50px;
+        }
+    
 
         #information {
               color:blue;
+              background-color:yellow;
+              padding:15px;
+              margin-top: 150px;
+              margin-left:40px;
+              width: 30%;
+
           
         } 
        #hope {
          color:blueviolet;
        }
-      
+      #my_adjectives {
+        background-color:lightskyblue;
+        padding:20px ;
+        margin-left:250px ;
+        margin-top:30px;
+        width:30% ;
+        font-size: 20px;
+      }
         h1 {
           color:darkblue;
-          font-style: italic;
+          font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+          
+          position:relative;
+          left:550px;
         }
         h2 {
           color:red;
           
         
         }
+        .photo{
+          width:100px;
+        }
        h4 {font-style:oblique}
        li{font-style:mono space}
+
+       
         
         
 
       
     </style>
   </head> 
-
-  <body> 
-   
-     <h1>Anika's World</h1> 
-     <a 
-     <a href="#my_fav_things" title="this is all about me" >My favourite things</a>
-     <h2 id="about_me" title="I love coding">About Me</h2>
-     
-     <p id= "information">Hi my name is Anika and I am 7 years old. <br>I am from South India and I am learning Indian dancing(Bharathanatyam). <br> I will be sharing my life with you.<br>
+    <body> 
+    <h1>Anika's World</h1> 
+    <header>
+      <nav>
+        <ul>
+          <li  class= "horizontal_bar"><a href="index.html">Anika's World</a></li>
+          <li  class= "horizontal_bar"><a href="firstpage.html">Iniya</a></li>
+          <li  class= "horizontal_bar"><a href="secondpage.html">Mummy</a></li>
+          <li  class= "horizontal_bar"><a href="thirdpage.html">Daddy</a></li>
+          <li  class= "horizontal_bar"><a href="thirdpage.html">School</a></li>
+          <li  class= "horizontal_bar"><a href="thirdpage.html">Bharathanatyam</a></li>
+          <li  class= "horizontal_bar"><a href="thirdpage.html">Projects</a></li>
+          <li  class= "horizontal_bar"><a href="thirdpage.html">Terms and Conditons</a></li>
+          
+        </ul>
+      </nav>
+    </header>
+    <div id= "information">
+     <h2>About Me</h2>
+    
+     <p> Hi my name is Anika and I am 7 years old. <br>I am from South India and I am learning Indian dancing(Bharathanatyam). <br> I will be sharing my life with you.<br>
        First is my grumpy sister (Iniya who has crazy hair) <br> then my crazy dad, <br>my bossy mum and last of all is 
        my loving school(The Queens School) <br> (and I might even tell you about my best friend Rithi).<br>I will tell you about my school
        activities and projects.<br>I will also tell you about how my dad eats a grape.<br>Last of all I will tell you about how my sister can <br> get grumpy very easily and also how my mum <br>is very bossy "do this do that".<br>
        
     </p>
+  </div>
+    <div id="my_adjectives">
+    <h2>Three adjectives about me <br></h2> 
+    <ul>
+    <li>cute</li>   <br>         
+    <li>funny</li> <br>
+    <li>kind</li>
 
-  </body>
+    </ul>
+    </div>
 
 
-</html>
-
-<h2>Three adjectives about me <br></h2> 
-
-<li>cute</li>   <br>         
- <li>funny</li> <br>
-  <li>kind</li>
-
-</ul>
 <h2 id= hope>HOPE YOU ENJOY</h2>
 
 <h2 >My favourite things</h2>
@@ -78,3 +130,7 @@
 <h4>My favourite person is my sister</h4>
 
 <h4>My favourite people are my family</h4>
+</body>
+
+
+</html>
